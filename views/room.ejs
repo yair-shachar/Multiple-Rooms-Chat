@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room chat</title>
+    <script>
+        const roomName = "<%= roomName %>"
+    </script>
+    <link rel="stylesheet" href="main.css">
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+    </head>
+<body>
+    <div id="message-container"></div>
+        <form id="send-container" autocomplete="off">
+            <input type="text" id="message-input"  cols="20" rows="5">
+        </form>
+        <button type="submit" id="send-button" class="btn btn-primary ml-3" >Send</button>
+    
+</body>
+</html>
