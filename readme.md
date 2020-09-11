@@ -1,6 +1,6 @@
 # Multiple rooms real-time chat
 
-This app, based on Node.js, Express, Socket.io and JavaScript, allows users to create diferent chat rooms, to connect them and disconect.
+This app, based on Node.js, Express, Socket.io and JavaScript, allows users to create different chat rooms, to connect them and disconnect.
 
 When a user sends a message in a room, only users that are in the same room can see it. Also, when a user connects or disconnects from any room created in this app, only users that are loged in to the same room can see his action.
 
